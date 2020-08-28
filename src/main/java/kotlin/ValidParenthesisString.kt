@@ -1,4 +1,4 @@
-package main.java.leetcode.kotlin
+package main.java.kotlin
 
 import kotlin.test.assertEquals
 

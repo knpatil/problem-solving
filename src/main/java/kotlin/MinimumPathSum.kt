@@ -1,4 +1,4 @@
-package main.java.leetcode.kotlin
+package main.java.kotlin
 
 /*
 Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right
