@@ -68,10 +68,10 @@ public class MergeSort {
 
     public static void main(String[] args) {
         List<Integer> intList =
-                IntStream.range(0, 100).boxed().collect(Collectors.toList());
+                IntStream.range(0, 25).boxed().collect(Collectors.toList());
 
         // call merge sort 3 times
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 1; i++) {
             Collections.shuffle(intList);
             int[] array = intList.stream().mapToInt(Integer::intValue).toArray();
             print(array); // print shuffled array
